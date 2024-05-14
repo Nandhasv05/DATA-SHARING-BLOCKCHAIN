@@ -1,0 +1,111 @@
+<%@ Page Language="VB" MasterPageFile="~/Admin.master" AutoEventWireup="false" CodeFile="Sms.aspx.vb" Inherits="Sms" title="Untitled Page" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<table style="width: 1000px; position: static">
+        <tr>
+            <td style="width: 25%; height: 30px;">
+            </td>
+            <td colspan="2" style="height: 30px; text-align: center">
+                <strong><span style="font-size: 14pt; color: #ffff00">PATIENT REPORT INFORMATION FORM</span></strong></td>
+            <td style="width: 25%; height: 30px;">
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 25%; height: 30px; text-align: right">
+                <span style="font-size: 14pt; color: #ffffff"></span></td>
+            <td style="width: 25%; height: 30px; text-align: right;">
+                <span style="font-size: 14pt; color: #ffffff">&nbsp;Patient ID :</span></td>
+            <td style="width: 25%; height: 30px; text-align: left">
+                <span style="font-size: 14pt; color: #ffffff">
+                    <asp:DropDownList ID="DD_pid" runat="server" AutoPostBack="True" Font-Bold="True"
+                        Font-Names="Times New Roman" Font-Size="12pt" Style="position: static" Width="205px">
+                        <asp:ListItem>Select</asp:ListItem>
+                    </asp:DropDownList></span></td>
+            <td style="width: 25%; height: 30px">
+                </td>
+        </tr>
+        <tr>
+            <td style="width: 25%; height: 30px">
+            </td>
+            <td style="width: 25%; height: 30px; text-align: right;">
+                <span style="font-size: 14pt; color: #ffffff">Patient-Name :</span></td>
+            <td style="width: 25%; height: 30px; text-align: left;">
+                <asp:TextBox ID="T_pname" runat="server" Font-Names="Times New Roman" Font-Size="12pt"
+                    Style="position: static" Width="200px"></asp:TextBox></td>
+            <td style="width: 25%; height: 30px">
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 25%; height: 30px">
+            </td>
+            <td style="width: 25%; height: 30px; text-align: right;">
+                <span style="font-size: 14pt; color: #ffffff">Contact Number :</span></td>
+            <td style="width: 25%; height: 30px">
+                <asp:TextBox ID="T_cno" runat="server" Font-Names="Times New Roman" Font-Size="12pt"
+                    Style="position: static" Width="200px"></asp:TextBox></td>
+            <td style="width: 25%; height: 30px">
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 25%; height: 30px">
+            </td>
+            <td style="width: 25%; height: 30px">
+            </td>
+            <td style="width: 25%; height: 30px">
+            </td>
+            <td style="width: 25%; height: 30px">
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 25%; height: 30px">
+            </td>
+            <td style="width: 25%; height: 30px">
+            </td>
+            <td style="width: 25%; height: 30px; text-align: center;">
+                <asp:ImageButton ID="ImageButton1" runat="server" Height="30px" ImageUrl="~/img/sms4.jpg"
+                    Style="position: static" Width="100px" /></td>
+            <td style="width: 25%; height: 30px">
+            </td>
+        </tr>
+    <tr>
+        <td style="width: 25%; height: 30px">
+        </td>
+        <td style="width: 25%; height: 30px">
+        </td>
+        <td style="width: 25%; height: 30px">
+        </td>
+        <td style="width: 25%; height: 30px">
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 25%; height: 30px">
+        </td>
+        <td style="width: 25%; height: 30px">
+        </td>
+        <td style="width: 25%; height: 30px">
+        </td>
+        <td style="width: 25%; height: 30px">
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 25%; height: 30px">
+        </td>
+        <td style="width: 25%; height: 30px">
+        </td>
+        <td style="width: 25%; height: 30px">
+        </td>
+        <td style="width: 25%; height: 30px">
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 25%; height: 30px">
+        </td>
+        <td style="width: 25%; height: 30px">
+        </td>
+        <td style="width: 25%; height: 30px">
+        </td>
+        <td style="width: 25%; height: 30px">
+        </td>
+    </tr>
+    </table>
+</asp:Content>
+

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "D:\...\Scalable and Secure Sharing of Personal Health Records\", "D:\Raj-2012-Developments\ASP.Net\Scalable and Secure Sharing of Personal Health Records\", "{38084200-F0F6-420B-BE52-EBC3C994C098}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/Scalable and Secure Sharing of Personal Health Records"
+		Debug.AspNetCompiler.PhysicalPath = "D:\Raj-2012-Developments\ASP.Net\Scalable and Secure Sharing of Personal Health Records\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Scalable and Secure Sharing of Personal Health Records\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Scalable and Secure Sharing of Personal Health Records"
+		Release.AspNetCompiler.PhysicalPath = "D:\Raj-2012-Developments\ASP.Net\Scalable and Secure Sharing of Personal Health Records\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Scalable and Secure Sharing of Personal Health Records\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1080"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38084200-F0F6-420B-BE52-EBC3C994C098}.Debug|.NET.ActiveCfg = Debug|.NET
+		{38084200-F0F6-420B-BE52-EBC3C994C098}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

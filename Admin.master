@@ -1,0 +1,92 @@
+<%@ Master Language="VB" CodeFile="Admin.master.vb" Inherits="Admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body background="pic/Bottom_texture.jpg">
+    <form id="form1" runat="server">
+    <div>
+        <table align="center"  style="width: 1000px; position: static">
+            <tr>
+                <td colspan="4" style="height: 22px">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/img/top_banner2.jpg" Style="position: static"
+                        Width="1000px" Height="225px" /></td>
+            </tr>
+            <tr>
+                <td colspan="4" style="height: 30px">
+                    <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" Style="position: static; background-color: #000000;"
+                        Width="1000px" Font-Bold="False" Font-Names="Monotype Corsiva" Font-Size="16pt" ForeColor="Yellow" Height="30px" BackColor="#B5C7DE" DynamicHorizontalOffset="2" Font-Italic="True" StaticSubMenuIndent="10px">
+                        <Items>
+                            <asp:MenuItem Text="Home" Value="HOME" NavigateUrl="~/Home.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="New Registration" Value="New Registration" NavigateUrl="~/Nreg.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Doctor Details" Value="Doctor Details" NavigateUrl="~/Doct.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Doctor View" Value="Patient Report" NavigateUrl="~/Search.aspx"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Doctentry.aspx" Text="Doctor Result" Value="Doctor Result">
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Patient Report" Value="Patient Report" NavigateUrl="~/Preport.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Hacker" Value="Hacker" NavigateUrl="~/Hackerlist.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Exit" Value="Exit" NavigateUrl="~/Login.aspx"></asp:MenuItem>
+                        </Items>
+                        <StaticSelectedStyle BackColor="#507CD1" />
+                        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
+                        <DynamicMenuStyle BackColor="#B5C7DE" />
+                        <DynamicSelectedStyle BackColor="#507CD1" />
+                        <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <StaticHoverStyle BackColor="#284E98" ForeColor="White" />
+                    </asp:Menu>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 25%; height: 30px">
+                </td>
+                <td colspan="2" style="height: 30px">
+                    <span style="font-size: 16pt; color: white"><marquee><STRONG><EM>Welcome to 
+      Administration</EM></STRONG></marquee></span></td>
+                <td style="width: 25%; height: 30px">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" style="height: 30px">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 25%; height: 30px">
+                </td>
+                <td style="width: 25%; height: 30px">
+                </td>
+                <td style="width: 25%; height: 30px">
+                </td>
+                <td style="width: 25%; height: 30px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 25%; height: 30px">
+                </td>
+                <td style="width: 25%; height: 30px">
+                </td>
+                <td style="width: 25%; height: 30px">
+                </td>
+                <td style="width: 25%; height: 30px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 25%; height: 30px">
+                </td>
+                <td style="width: 25%; height: 30px">
+                </td>
+                <td style="width: 25%; height: 30px">
+                </td>
+                <td style="width: 25%; height: 30px">
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
